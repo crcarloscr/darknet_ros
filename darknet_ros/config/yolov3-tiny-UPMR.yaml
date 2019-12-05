@@ -1,0 +1,13 @@
+yolo_model:
+
+  config_file:
+    name: yolov3-tiny-UPMR.cfg
+  weight_file:
+    name: yolov3-tiny-UPMR.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names:
+      - Yellow
+      - Blue
+      - Orange
